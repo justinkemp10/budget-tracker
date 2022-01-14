@@ -1,3 +1,5 @@
+import { useIndexedDb } from "./indexedDb";
+
 let transactions = [];
 let myChart;
 
@@ -12,6 +14,7 @@ fetch("/api/transaction")
     populateTotal();
     populateTable();
     populateChart();
+    
   });
 
 function populateTotal() {
@@ -151,3 +154,9 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
+
+// useIndexedDb("transaction", "transactionStore", "get").then(results => {
+//   results.forEach(expense => {
+//     addToList(expense.name, expense.value);
+//   });
+// });
