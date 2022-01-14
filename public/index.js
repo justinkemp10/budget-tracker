@@ -155,8 +155,8 @@ document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
 
-// useIndexedDb("transaction", "transactionStore", "get").then(results => {
-//   results.forEach(expense => {
-//     addToList(expense.name, expense.value);
-//   });
-// });
+useIndexedDb("transaction", "transactionStore", "get").then(results => {
+  results.forEach(expense => {
+    addToList(expense.name, expense.value);
+  });
+});
