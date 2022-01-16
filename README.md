@@ -11,3 +11,12 @@ AS AN avid traveler, I WANT to be able to track my withdrawals and deposits with
 ## Acceptance Criteria
 
 GIVEN a user is on Budget App without an internet connection, WHEN the user inputs a withdrawal or deposit, THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+
+Here is a link to the deployed Heroku app: [Workout Tracker App](https://workout-tracker-app2000.herokuapp.com/)
+
+
+Here is a link to the application repository: [Workout Tracker GitHub Repo](https://github.com/justinkemp10/workout-tracker)
+
+## Author
+
+[Justin Kemp](https://github.com/justinkemp10)
