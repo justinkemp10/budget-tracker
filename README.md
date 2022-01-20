@@ -12,6 +12,14 @@ AS AN avid traveler, I WANT to be able to track my withdrawals and deposits with
 
 GIVEN a user is on Budget App without an internet connection, WHEN the user inputs a withdrawal or deposit, THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
+## Screenshots
+
+| Desktop Display |
+| :------: |
+| ![Screenshot-budget-1](public/budget_screenshot.png) |
+
+## Links
+
 Here is a link to the deployed Heroku app: [Budget Tracker App](https://budget-tracker-app2000.herokuapp.com/)
 
 
@@ -20,3 +28,7 @@ Here is a link to the application repository: [Budget Tracker GitHub Repo](https
 ## Author
 
 [Justin Kemp](https://github.com/justinkemp10)
+
+## Current Status
+
+App is deployed and running on Heroku, having issues implementing IndexedDB for offline use of the application.
