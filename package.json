@@ -14,7 +14,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://budget-tracker-app2000.herokuapp.com/",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
